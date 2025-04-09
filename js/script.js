@@ -10,6 +10,7 @@ const multiplicationTable = document.querySelector('#multiplication-operations')
 
 
 // Funções !
+
 const createTable = (number,multiplicatorNumber)=>{
 
         multiplicationTable.innerHTML = ""
@@ -32,6 +33,7 @@ const createTable = (number,multiplicatorNumber)=>{
 
         multiplicationTitle.innerText = number;
 }
+
 // Eventos!
 
 multiplicationForm.addEventListener("submit",(e)=>{
